@@ -1,0 +1,128 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #d2e1ff;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+}
+
+.burger-menu {
+    padding: 5px;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 0 11px #111111;
+    width: 600px;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.burger-list{
+    padding: 5px;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 0 11px #111111;
+    width: 1000px;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.burger {
+    background-color: #e0e0e0;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    padding: 0;
+    position: relative;
+}
+
+.burger-toggle {
+    padding: 15px;
+    border-radius: 15px;
+    background: linear-gradient(to bottom, #fec500, #eea20d);
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+.burger-body {
+    border-top: 0;
+    font-weight: bold;
+    padding: 15px;
+    display: none;
+    width: 100%;
+    position: relative;
+}
+
+.gender {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #fff;
+    display: block;
+    margin-top: 5px;
+    margin-right: 10px;
+    -moz-box-shadow: inset 0 0 10px gray;
+    -webkit-box-shadow: inset 0 0 10px grey;
+    box-shadow: inset 0 0 10px grey;
+}
+
+.open {
+    display: block !important;
+}
+
+label {
+    display: inline-block;
+}
+
+input {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #fff;
+    display: block;
+    margin-top: 5px;
+    margin-right: 10px;
+    -moz-box-shadow: inset 0 0 10px gray;
+    -webkit-box-shadow: inset 0 0 10px gray;
+    box-shadow: inset 0 0 10px gray;
+}
+
+.burger-footer {
+    text-align: right;
+    padding-top: 10px;
+}
+
+.next-button {
+    background: linear-gradient(to bottom, #404bb6, #7362ce);
+    padding: 10px 40px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.under-form {
+    margin-top: 14px;
+}
+
+.date-input {
+    float: left;
+}
+
+fieldset {
+    border: none;
+    padding-left: 0;
+}
+.content{
+    -moz-box-shadow: inset 0 0 10px gray;
+    -webkit-box-shadow: inset 0 0 10px gray;
+    box-shadow: inset 0 0 10px gray;
+    max-width: 40%;
+    border-radius: 10px;
+    margin-right: 60%;
+}
+.error-box{
+    color: red;
+}
