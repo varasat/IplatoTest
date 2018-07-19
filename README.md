@@ -39,4 +39,3 @@ Due to some time constraints on my part the following issues are present:
 - no categorizing was added
 - CSS from a previous project used so there might be css classes that are never used in the views
 
-This project was done in 2x 2 hour sessions and a 2h30min session totalling a 6h30 total project time
