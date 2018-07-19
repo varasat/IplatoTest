@@ -31,8 +31,10 @@ How to improve:
 - create a plugin for the JS
 - create a responsive listing page allowing organisation by column
 - add Categorizing
+- clean up css
 
 
 Due to some time constraints on my part the following issues are present:
 - only the Comment form uses ajax to submit 
 - no categorizing was added
+- CSS from a previous project used so there might be css classes that are never used in the views
