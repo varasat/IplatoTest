@@ -3,7 +3,7 @@
 
 Setup: 
 - Add the newIplatoCodingTest folder at the base of your server 
-- Edit the \newIplatoCodingTest\Engine\Db.php file with the details of the Database used for this task 
+- Edit the /newIplatoCodingTest/Engine/Config.php file with the details of the Database used for this task (the config data is sent to \newIplatoCodingTest\Engine\Db.php)
 - Import the MySQL database contained in Iplato.sql 
 
 Basic testing steps :
